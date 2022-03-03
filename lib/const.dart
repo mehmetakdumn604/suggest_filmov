@@ -5,10 +5,10 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:suggest_filmov/models/movie.dart';
 
-const APIKEY = "767bf9c46ae31624e55cc71de4f5f114";
+const APIKEY = "YOUR_TMDB_API_KEY";
 
 const READACCESSTOKEN =
-    "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3NjdiZjljNDZhZTMxNjI0ZTU1Y2M3MWRlNGY1ZjExNCIsInN1YiI6IjYxZWFiYjg3NTM0NjYxMDEwZWMzYjIwYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.P0BQPDL-yn1O9SiP6meKmHuvpQ_XOAyvNIARPrB3QeE";
+    "YOUR_READ_ACCESS_TOKEN";
 
 const Color redColor = Color(0xffFF4A4A);
 const Color blackColor = Color(0xff26231F);
