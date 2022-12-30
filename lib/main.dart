@@ -56,7 +56,7 @@ class MyApp extends StatelessWidget {
       designSize: Size(330, 712),
       minTextAdapt: true,
       splitScreenMode: true,
-      builder: () => GetMaterialApp(
+      builder: (context,child) => GetMaterialApp(
         title: 'Suggest Filmov',
         debugShowCheckedModeBanner: false,
         enableLog: false,
